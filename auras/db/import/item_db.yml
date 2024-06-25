@@ -1,0 +1,3075 @@
+###########################################################################
+# Auras Effect
+###########################################################################
+# Auras VIP
+###########################################################################
+  - Id: 759000
+    AegisName: Aura_Effect
+    Name: Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_aura,false;
+  - Id: 759001
+    AegisName: Purple_Aura_Effect
+    Name: Purple Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_purple_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_purple_aura,false;
+  - Id: 759002
+    AegisName: Orange_Aura_Effect
+    Name:  Orange Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_orange_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_orange_aura,false;
+  - Id: 759003
+    AegisName: Blue_Aura_Effect
+    Name:  Blue Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_blue_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_blue_aura,false;
+  - Id: 759004
+    AegisName: Cyan_Aura_Effect
+    Name:  Cyan Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_cyan_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_cyan_aura,false;
+  - Id: 759005
+    AegisName: Pink_Aura_Effect
+    Name:  Pink Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_pink_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_pink_aura,false;
+  - Id: 759006
+    AegisName: Red_Aura_Effect
+    Name:  Red Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_red_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_red_aura,false;
+  - Id: 759007
+    AegisName: Yellow_Aura_Effect
+    Name:  Yellow Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_yellow_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_yellow_aura,false;
+  - Id: 759008
+    AegisName: Green_Aura_Effect
+    Name:  Green Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_green_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_green_aura,false;
+  - Id: 759009
+    AegisName: T_Purple_Aura_Effect
+    Name: True Purple Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_purple_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_purple_s_aura,false;
+  - Id: 759010
+    AegisName: T_Orange_Aura_Effect
+    Name:  True Orange Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_orange_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_orange_s_aura,false;
+  - Id: 759011
+    AegisName: T_Blue_Aura_Effect
+    Name:  True Blue Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_blue_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_blue_s_aura,false;
+  - Id: 759012
+    AegisName: T_Cyan_Aura_Effect
+    Name:  True Cyan Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_cyan_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_cyan_s_aura,false;
+  - Id: 759013
+    AegisName: T_Pink_Aura_Effect
+    Name:  True Pink Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_pink_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_pink_s_aura,false;
+  - Id: 759014
+    AegisName: T_Red_Aura_Effect
+    Name:  True Red Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_red_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_red_s_aura,false;
+  - Id: 759015
+    AegisName: T_Yellow_Aura_Effect
+    Name:  True Yellow Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_yellow_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_yellow_s_aura,false;
+  - Id: 759016
+    AegisName: T_Green_Aura_Effect
+    Name:  True Green Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_effect_green_s_aura,true;
+    UnEquipScript: |
+      hateffect HAT_EF_effect_green_s_aura,false;
+###########################################################################
+# Auras Effect(Style)
+###########################################################################
+  - Id: 760000
+    AegisName: First_Faith_Power_Effect
+    Name: First Faith Power Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_firstfaithpower_A,true;
+      hateffect HAT_EF_firstfaithpower_B,true;
+#      hateffect HAT_EF_firstfaithpower_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_firstfaithpower_A,false;
+      hateffect HAT_EF_firstfaithpower_B,false;
+#      hateffect HAT_EF_firstfaithpower_C,false;
+  - Id: 760001
+    AegisName: Hell_Tree_Effect
+    Name: Hell Tree Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_helltree_A,true;
+      hateffect HAT_EF_helltree_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_helltree_A,false;
+      hateffect HAT_EF_helltree_B,false;
+  - Id: 760002
+    AegisName: Abyss_Slayer_Effect
+    Name: Abyss Slayer Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_abyss_slayer_A,true;
+      hateffect HAT_EF_abyss_slayer_B,true;
+      hateffect HAT_EF_abyss_slayer_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_abyss_slayer_A,false;
+      hateffect HAT_EF_abyss_slayer_B,false;
+      hateffect HAT_EF_abyss_slayer_C,false;
+  - Id: 760003
+    AegisName: Judge_Effect
+    Name: Judge Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_judge_A,true;
+      hateffect HAT_EF_judge_B,true;
+      hateffect HAT_EF_judge_C,true;
+#      hateffect HAT_EF_judge_D,true;
+    UnEquipScript: |
+      hateffect HAT_EF_judge_A,false;
+      hateffect HAT_EF_judge_B,false;
+      hateffect HAT_EF_judge_C,false;
+#      hateffect HAT_EF_judge_D,true;
+  - Id: 760004
+    AegisName: Third_Exor_Flame_Effect
+    Name: Third Exor Flame Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_thirdexorflame_A,true;
+      hateffect HAT_EF_thirdexorflame_B,true;
+      hateffect HAT_EF_thirdexorflame_C,true;
+#      hateffect HAT_EF_thirdexorflame_D,true;
+    UnEquipScript: |
+      hateffect HAT_EF_thirdexorflame_A,false;
+      hateffect HAT_EF_thirdexorflame_B,false;
+      hateffect HAT_EF_thirdexorflame_C,false;
+#      hateffect HAT_EF_thirdexorflame_D,true;
+  - Id: 760005
+    AegisName: Rising_Sun_Effect
+    Name: Rising Sun Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ske_rising_sun_A,true;
+#      hateffect HAT_EF_ske_rising_sun_B,true;
+#      hateffect HAT_EF_ske_rising_sun_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ske_rising_sun_A,false;
+#      hateffect HAT_EF_ske_rising_sun_B,false;
+#      hateffect HAT_EF_ske_rising_sun_C,false;
+  - Id: 760006
+    AegisName: Rising_Moon_Effect
+    Name: Rising Moon Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ske_rising_moon_A,true;
+#      hateffect HAT_EF_ske_rising_moon_B,true;
+#      hateffect HAT_EF_ske_rising_moon_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ske_rising_moon_A,false;
+#      hateffect HAT_EF_ske_rising_moon_B,false;
+#      hateffect HAT_EF_ske_rising_moon_C,false;
+  - Id: 760007
+    AegisName: Enchanting_Sky_Effect
+    Name: Enchanting Sky Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ske_enchanting_sky,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ske_enchanting_sky,false;
+  - Id: 760008
+    AegisName: Circle_Directions_Elements_Effect
+    Name: Circle Directions Elements Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_circle_directions_elements,true;
+    UnEquipScript: |
+      hateffect HAT_EF_circle_directions_elements,false;
+  - Id: 760009
+    AegisName: Talisman_of_Magician_Effect
+    Name: Talisman of Magician Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_talisman_of_magician,true;
+    UnEquipScript: |
+      hateffect HAT_EF_talisman_of_magician,false;
+  - Id: 760010
+    AegisName: Soul_of_Heaven_and_Earth_Effect
+    Name: Soul of Heaven and Earth Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_soul_of_heaven_and_earth,true;
+    UnEquipScript: |
+      hateffect HAT_EF_soul_of_heaven_and_earth,false;
+  - Id: 760011
+    AegisName: Servant_Sign_Effect
+    Name: Servant Sign Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_servant_sign_A,true;
+      hateffect HAT_EF_servant_sign_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_servant_sign_A,false;
+      hateffect HAT_EF_servant_sign_B,false;
+  - Id: 760012
+    AegisName: Vigor_Effect
+    Name: Vigor Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_vigor,true;
+    UnEquipScript: |
+      hateffect HAT_EF_vigor,false;
+  - Id: 760013
+    AegisName: Dragonic_Aura_Effect
+    Name: Dragonic Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dragonic_aura_A,true;
+      hateffect HAT_EF_dragonic_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dragonic_aura_A,false;
+      hateffect HAT_EF_dragonic_aura_B,false;
+  - Id: 760014
+    AegisName: Diamond_Storm_Effect
+    Name: Diamond Storm Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_diamond_storm_A,true;
+      hateffect HAT_EF_diamond_storm_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_diamond_storm_A,false;
+      hateffect HAT_EF_diamond_storm_B,false;
+  - Id: 760015
+    AegisName: Conflagration_Effect
+    Name: Conflagration Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_conflagration_A,true;
+      hateffect HAT_EF_conflagration_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_conflagration_A,false;
+      hateffect HAT_EF_conflagration_B,false;
+  - Id: 760016
+    AegisName: Enchanting_Shadow_Effect
+    Name: Enchanting Shadow Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_enchanting_shadow_A,true;
+      hateffect HAT_EF_enchanting_shadow_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_enchanting_shadow_A,false;
+      hateffect HAT_EF_enchanting_shadow_B,false;
+  - Id: 760017
+    AegisName: Abyss_Strike_Effect
+    Name: Abyss Strike Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_abyss_strike_A,true;
+      hateffect HAT_EF_abyss_strike_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_abyss_strike_A,false;
+      hateffect HAT_EF_abyss_strike_B,false;
+  - Id: 760018
+    AegisName: Mystery_Illusion_Effect
+    Name: Mystery Illusion Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_mystery_illusion_B,true;
+#      hateffect HAT_EF_mystery_illusion_A,true;
+    UnEquipScript: |
+      hateffect HAT_EF_mystery_illusion_B,false;
+#      hateffect HAT_EF_mystery_illusion_A,false;
+  - Id: 760019
+    AegisName: Deadly_Projection_Effect
+    Name: Deadly Projection Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_deadly_projection_A,true;
+      hateffect HAT_EF_deadly_projection_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_deadly_projection_A,false;
+      hateffect HAT_EF_deadly_projection_B,false;
+  - Id: 760020
+    AegisName: Astral_Strike_Effect
+    Name: Astral Strike Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_astralstrike_A,true;
+      hateffect HAT_EF_astralstrike_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_astralstrike_A,false;
+      hateffect HAT_EF_astralstrike_B,false;
+  - Id: 760021
+    AegisName: Froral_Flare_Road_Effect
+    Name: Froral Flare Road Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_froral_flareroad_A,true;
+      hateffect HAT_EF_froral_flareroad_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_froral_flareroad_A,false;
+      hateffect HAT_EF_froral_flareroad_B,false;
+  - Id: 760022
+    AegisName: Crimson_Arrow_Effect
+    Name: Crimson Arrow Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_crimsonarrow_A,true;
+      hateffect HAT_EF_crimsonarrow_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_crimsonarrow_A,false;
+      hateffect HAT_EF_crimsonarrow_B,false;
+  - Id: 760023
+    AegisName: Rain_Of_Crystal_Effect
+    Name: Rain Of Crystal Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rain_of_crystal_A,true;
+      hateffect HAT_EF_rain_of_crystal_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rain_of_crystal_A,false;
+      hateffect HAT_EF_rain_of_crystal_B,false;
+  - Id: 760024
+    AegisName: Crystal_Impact_Effect
+    Name: Crystal Impact Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_crystal_impact_A,true;
+      hateffect HAT_EF_crystal_impact_B,true;
+      hateffect HAT_EF_crystal_impact_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_crystal_impact_A,false;
+      hateffect HAT_EF_crystal_impact_B,false;
+      hateffect HAT_EF_crystal_impact_C,false;
+  - Id: 760025
+    AegisName: Tornado_Storm_Effect
+    Name: Tornado Storm Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_tornadostorm_A,true;
+      hateffect HAT_EF_tornadostorm_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_tornadostorm_A,false;
+      hateffect HAT_EF_tornadostorm_B,false;
+  - Id: 760026
+    AegisName: Strantum_Tremor_Effect
+    Name: Strantum Tremor Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_strantumtremor_A,true;
+      hateffect HAT_EF_strantumtremor_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_strantumtremor_A,false;
+      hateffect HAT_EF_strantumtremor_B,false;
+  - Id: 760027
+    AegisName: Rock_Down_Effect
+    Name: Rock Down Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rockdown_A,true;
+      hateffect HAT_EF_rockdown_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rockdown_A,false;
+      hateffect HAT_EF_rockdown_B,false;
+  - Id: 760028
+    AegisName: Violent_Quake_Effect
+    Name: Violent Quake Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_violentquake_A,true;
+      hateffect HAT_EF_violentquake_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_violentquake_A,false;
+      hateffect HAT_EF_violentquake_B,false;
+  - Id: 760029
+    AegisName: Terra_Drive_Effect
+    Name: Terra Drive Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_terradrive_A,true;
+      hateffect HAT_EF_terradrive_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_terradrive_A,false;
+      hateffect HAT_EF_terradrive_B,false;
+  - Id: 760030
+    AegisName: Lightning_Land_Effect
+    Name: Lightning Land Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lightning_land_A,true;
+      hateffect HAT_EF_lightning_land_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lightning_land_A,false;
+      hateffect HAT_EF_lightning_land_B,false;
+  - Id: 760031
+    AegisName: Venom_Swamp_Effect
+    Name: Venom Swamp Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_venom_swamp_A,true;
+      hateffect HAT_EF_venom_swamp_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_venom_swamp_A,false;
+      hateffect HAT_EF_venom_swamp_B,false;
+  - Id: 760032
+    AegisName: Activity_Burn_Effect
+    Name: Activity Burn Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_activity_burn_A,true;
+      hateffect HAT_EF_activity_burn_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_activity_burn_A,false;
+      hateffect HAT_EF_activity_burn_B,false;
+  - Id: 760033
+    AegisName: Increasing_Activity_Effect
+    Name: Increasing Activity Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_increasing_activity_A,true;
+      hateffect HAT_EF_increasing_activity_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_increasing_activity_A,false;
+      hateffect HAT_EF_increasing_activity_B,false;
+  - Id: 760034
+    AegisName: Diluvio_Effect
+    Name: Diluvio Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_diluvio_A,true;
+      hateffect HAT_EF_diluvio_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_diluvio_A,false;
+      hateffect HAT_EF_diluvio_B,false;
+  - Id: 760035
+    AegisName: Ardor_Effect
+    Name: Ardor Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ardor_A,true;
+      hateffect HAT_EF_ardor_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ardor_A,false;
+      hateffect HAT_EF_ardor_B,false;
+  - Id: 760036
+    AegisName: Procella_Effect
+    Name: Procella Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_procella_A,true;
+      hateffect HAT_EF_procella_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_procella_A,false;
+      hateffect HAT_EF_procella_B,false;
+  - Id: 760037
+    AegisName: Terremotus_Effect
+    Name: Terremotus Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_terremotus_A,true;
+      hateffect HAT_EF_terremotus_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_terremotus_A,false;
+      hateffect HAT_EF_terremotus_B,false;
+  - Id: 760038
+    AegisName: Serpens_Effect
+    Name: Serpens Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_serpens_A,true;
+      hateffect HAT_EF_serpens_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_serpens_A,false;
+      hateffect HAT_EF_serpens_B,false;
+  - Id: 760039
+    AegisName: Dilectio_Heal_Effect
+    Name: Dilectio Heal Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_dilectioheal_A,true;
+      hateffect HAT_EF_new_dilectioheal_B,true;
+      hateffect HAT_EF_new_dilectioheal_C,true;
+      hateffect HAT_EF_new_dilectioheal_D,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_dilectioheal_A,false;
+      hateffect HAT_EF_new_dilectioheal_B,false;
+      hateffect HAT_EF_new_dilectioheal_C,false;
+      hateffect HAT_EF_new_dilectioheal_D,false;
+  - Id: 760040
+    AegisName: Competentia_Effect
+    Name: Competentia Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_competentia_A,true;
+      hateffect HAT_EF_competentia_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_competentia_A,false;
+      hateffect HAT_EF_competentia_B,false;
+  - Id: 760041
+    AegisName: Benedictum_Effect
+    Name: Benedictum Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_benedictum_A,true;
+      hateffect HAT_EF_benedictum_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_benedictum_A,false;
+      hateffect HAT_EF_benedictum_B,false;
+  - Id: 760042
+    AegisName: Arbitrium_Effect
+    Name: Arbitrium Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_arbitrium_A,true;
+      hateffect HAT_EF_arbitrium_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_arbitrium_A,false;
+      hateffect HAT_EF_arbitrium_B,false;
+  - Id: 760043
+    AegisName: Pneumaticus_Procella_Effect
+    Name: Pneumaticus Procella  Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_pneumaticusprocella,true;
+      hateffect HAT_EF_new_dilectioheal_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_pneumaticusprocella,false;
+      hateffect HAT_EF_new_dilectioheal_B,false;
+  - Id: 760044
+    AegisName: Sincere_Faith_Effect
+    Name: Sincere Faith Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_chainlightning_cast,true;
+      hateffect HAT_EF_sincerefaith,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_chainlightning_cast,false;
+      hateffect HAT_EF_sincerefaith,false;
+  - Id: 760045
+    AegisName: Activation_Defense_Machine_Effect
+    Name: Activation Defense Machine Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_a_machine_A,true;
+      hateffect HAT_EF_new_a_machine_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_a_machine_A,false;
+      hateffect HAT_EF_new_a_machine_B,false;
+  - Id: 760046
+    AegisName: Defense_Machine_Effect
+    Name: Defense Machine Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_d_machine_A,true;
+      hateffect HAT_EF_new_d_machine_B,true;
+      hateffect HAT_EF_new_d_machine_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_d_machine_A,false;
+      hateffect HAT_EF_new_d_machine_B,false;
+      hateffect HAT_EF_new_d_machine_C,false;
+  - Id: 760047
+    AegisName: Full_Protection_Effect
+    Name: Full Protection Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_adv_protection_A,true;
+      hateffect HAT_EF_adv_protection_B,true;
+#      hateffect HAT_EF_adv_protection_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_adv_protection_A,false;
+      hateffect HAT_EF_adv_protection_B,false;
+#      hateffect HAT_EF_adv_protection_C,false;
+  - Id: 760048
+    AegisName: A_Zone_Fire_Effect
+    Name: Acidified Zone Fire Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_acidified_zone_fire_A,true;
+      hateffect HAT_EF_acidified_zone_fire_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_acidified_zone_fire_A,false;
+      hateffect HAT_EF_acidified_zone_fire_B,false;
+  - Id: 760049
+    AegisName: A_Zone_Ground_Effect
+    Name: Acidified Zone Ground Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_acidified_zone_ground_A,true;
+      hateffect HAT_EF_acidified_zone_ground_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_acidified_zone_ground_A,false;
+      hateffect HAT_EF_acidified_zone_ground_B,false;
+  - Id: 760050
+    AegisName: A_Zone_Water_Effect
+    Name: Acidified Zone Water Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_acidified_zone_water_A,true;
+      hateffect HAT_EF_acidified_zone_water_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_acidified_zone_water_A,false;
+      hateffect HAT_EF_acidified_zone_water_B,false;
+  - Id: 760051
+    AegisName: A_Zone_Wind_Effect
+    Name: Acidified Zone Wind Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_acidified_zone_wind_A,true;
+      hateffect HAT_EF_acidified_zone_wind_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_acidified_zone_wind_A,false;
+      hateffect HAT_EF_acidified_zone_wind_B,false;
+  - Id: 760052
+    AegisName: Wooden_Fairy_Effect
+    Name: Wooden Fairy Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_wooden_fairy_A,true;
+      hateffect HAT_EF_wooden_fairy_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_wooden_fairy_A,false;
+      hateffect HAT_EF_wooden_fairy_B,false;
+  - Id: 760053
+    AegisName: Wooden_Warrior_Effect
+    Name: Wooden Warrior Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_wooden_warrior_A,true;
+      hateffect HAT_EF_wooden_warrior_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_wooden_warrior_A,false;
+      hateffect HAT_EF_wooden_warrior_B,false;
+  - Id: 760054
+    AegisName: Hawk_Boomerang_Effect
+    Name: Hawk Boomerang Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_hawkvumerang_B,true;
+      hateffect HAT_EF_hawkvumerang_C,true;
+#      hateffect HAT_EF_hawkvumerang_A,true;
+    UnEquipScript: |
+      hateffect HAT_EF_hawkvumerang_B,false;
+      hateffect HAT_EF_hawkvumerang_C,false;
+#      hateffect HAT_EF_hawkvumerang_A,false;
+  - Id: 760055
+    AegisName: Solid_Trap_Effect
+    Name: Solid Trap Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_solidtrap_A,true;
+      hateffect HAT_EF_solidtrap_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_solidtrap_A,false;
+      hateffect HAT_EF_solidtrap_B,false;
+  - Id: 760056
+    AegisName: Flame_Trap_Effect
+    Name: Flame Trap Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flametrap_A,true;
+      hateffect HAT_EF_flametrap_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flametrap_A,false;
+      hateffect HAT_EF_flametrap_B,false;
+  - Id: 760057
+    AegisName: Deep_Blind_Trap_Effect
+    Name: Deep Blind Trap Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_deepblindtrap_A,true;
+      hateffect HAT_EF_deepblindtrap_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_deepblindtrap_A,false;
+      hateffect HAT_EF_deepblindtrap_B,false;
+  - Id: 760058
+    AegisName: Swift_Trap_Effect
+    Name: Swift Trap Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_swifttrap_A,true;
+      hateffect HAT_EF_swifttrap_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_swifttrap_A,false;
+      hateffect HAT_EF_swifttrap_B,false;
+  - Id: 760059
+    AegisName: Rhythm_Shooting_Effect
+    Name: Rhythm Shooting Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rhythmshooting_A,true;
+      hateffect HAT_EF_rhythmshooting_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rhythmshooting_A,false;
+      hateffect HAT_EF_rhythmshooting_B,false;
+  - Id: 760060
+    AegisName: Sound_Blend_Effect
+    Name: Sound Blend Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_soundblend_A,true;
+      hateffect HAT_EF_soundblend_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_soundblend_A,false;
+      hateffect HAT_EF_soundblend_B,false;
+  - Id: 760061
+    AegisName: Mystic_Symphony_Effect
+    Name: Mystic Symphony Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_mysticsymphony_A,true;
+    UnEquipScript: |
+      hateffect HAT_EF_mysticsymphony_A,false;
+  - Id: 760062
+    AegisName: Serenade_of_Jawaii_Effect
+    Name: Serenade of Jawaii Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_jawaii_serenade_A,true;
+      hateffect HAT_EF_jawaii_serenade_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_jawaii_serenade_A,false;
+      hateffect HAT_EF_jawaii_serenade_B,false;
+  - Id: 760063
+    AegisName: March_of_Prontera_Effect
+    Name: March of Prontera Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_pronmarch_A,true;
+      hateffect HAT_EF_pronmarch_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_pronmarch_A,false;
+      hateffect HAT_EF_pronmarch_B,false;
+  - Id: 760064
+    AegisName: Capriccio_of_Loki_Effect
+    Name: Capriccio of Loki Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_roki_capriccio_A,true;
+      hateffect HAT_EF_roki_capriccio_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_roki_capriccio_A,false;
+      hateffect HAT_EF_roki_capriccio_B,false;
+  - Id: 760065
+    AegisName: Sonata_of_Kvasir_Effect
+    Name: Sonata of Kvasir Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_kvasirsonata_A,true;
+      hateffect HAT_EF_kvasirsonata_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_kvasirsonata_A,false;
+      hateffect HAT_EF_kvasirsonata_B,false;
+  - Id: 760066
+    AegisName: Hidden_Card_Effect
+    Name: Hidden Card Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_hidden_card,true;
+      hateffect HAT_EF_auto_firing_launcher,true;
+    UnEquipScript: |
+      hateffect HAT_EF_hidden_card,false;
+      hateffect HAT_EF_auto_firing_launcher,false;
+  - Id: 760067
+    AegisName: Mega_Sonic_Blow_Effect
+    Name: Mega Sonic Blow Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_mega_sonic_blow,true;
+    UnEquipScript: |
+      hateffect HAT_EF_mega_sonic_blow,false;
+  - Id: 760068
+    AegisName: Breaking_Limit_Effect
+    Name: Breaking Limit Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_breakinglimit,true;
+    UnEquipScript: |
+      hateffect HAT_EF_breakinglimit,false;
+  - Id: 760069
+    AegisName: New_Comet_Effect
+    Name: New Comet Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_comet_A,true;
+      hateffect HAT_EF_new_comet_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_comet_A,false;
+      hateffect HAT_EF_new_comet_B,false;
+  - Id: 760070
+    AegisName: New_Strantum_Tremor_Effect
+    Name: New Strantum Tremor Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_strantumtremor_A,true;
+      hateffect HAT_EF_new_strantumtremor_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_strantumtremor_A,false;
+      hateffect HAT_EF_new_strantumtremor_B,false;
+  - Id: 760071
+    AegisName: New_Varetyr_Spear_Effect
+    Name: New Varetyr Spear Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_varetyrspear_A,true;
+      hateffect HAT_EF_new_varetyrspear_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_varetyrspear_A,false;
+      hateffect HAT_EF_new_varetyrspear_B,false;
+  - Id: 760072
+    AegisName: New_Wall_of_Thorn_Effect
+    Name: New Wall of Thorn Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_wallofthorn_A,true;
+      hateffect HAT_EF_new_wallofthorn_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_wallofthorn_A,false;
+      hateffect HAT_EF_new_wallofthorn_B,false;
+  - Id: 760073
+    AegisName: New_Judex_Effect
+    Name: New Judex Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_judex_B,true;
+      hateffect HAT_EF_new_judex_C,true;
+#      hateffect HAT_EF_new_judex_A,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_judex_B,false;
+      hateffect HAT_EF_new_judex_C,false;
+#      hateffect HAT_EF_new_judex_A,false;
+  - Id: 760074
+    AegisName: New_Judex2_Effect
+    Name: New Judex2 Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_judex_E,true;
+#      hateffect HAT_EF_new_judex_D,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_judex_E,false;
+#      hateffect HAT_EF_new_judex_D,false;
+  - Id: 760075
+    AegisName: New_Diamond_Dust_Effect
+    Name: New Diamond Dust Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_diamonddust,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_diamonddust,false;
+  - Id: 760076
+    AegisName: New_Cart_Cannon_Effect
+    Name: New Cart Cannon Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_cart_cannon_A,true;
+      hateffect HAT_EF_new_cart_cannon_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_cart_cannon_A,false;
+      hateffect HAT_EF_new_cart_cannon_B,false;
+  - Id: 760077
+    AegisName: Judgement_Cross_Effect
+    Name: Judgement Cross Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_judgement_cross_B,true;
+      hateffect HAT_EF_judgement_cross_D,true;
+#      hateffect HAT_EF_judgement_cross_A,true;
+#      hateffect HAT_EF_judgement_cross_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_judgement_cross_B,false;
+      hateffect HAT_EF_judgement_cross_D,false;
+#      hateffect HAT_EF_judgement_cross_A,false;
+#      hateffect HAT_EF_judgement_cross_C,false;
+  - Id: 760078
+    AegisName: Grand_Judgement_Effect
+    Name: Grand Judgement Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_grand_judgement_A,true;
+      hateffect HAT_EF_grand_judgement_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_grand_judgement_A,false;
+      hateffect HAT_EF_grand_judgement_B,false;
+  - Id: 760079
+    AegisName: Attack_Stance_Effect
+    Name: Attack Stance Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_attack_stance_A,true;
+      hateffect HAT_EF_attack_stance_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_attack_stance_A,false;
+      hateffect HAT_EF_attack_stance_B,false;
+  - Id: 760080
+    AegisName: Guard_Stance_Effect
+    Name: Guard Stance Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_guard_stance_A,true;
+      hateffect HAT_EF_guard_stance_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_guard_stance_A,false;
+      hateffect HAT_EF_guard_stance_B,false;
+###########################################################################
+# Auras 
+###########################################################################
+  - Id: 760081
+    AegisName: Arcane_Aura_Effect
+    Name: Arcane Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_arcane_aura_A,true;
+      hateffect HAT_EF_arcane_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_arcane_aura_A,false;
+      hateffect HAT_EF_arcane_aura_B,false;
+  - Id: 760082
+    AegisName: Gluttony_Aura_Effect
+    Name: Gluttony Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_gluttony_aura_A,true;
+      hateffect HAT_EF_gluttony_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_gluttony_aura_A,false;
+      hateffect HAT_EF_gluttony_aura_B,false;
+  - Id: 760083
+    AegisName: Abstract_Flower_Aura_Effect
+    Name: Abstract Flower Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_abstract_flower_aura_A,true;
+      hateffect HAT_EF_abstract_flower_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_abstract_flower_aura_A,false;
+      hateffect HAT_EF_abstract_flower_aura_B,false;
+  - Id: 760084
+    AegisName: Aiyu_Aura_Effect
+    Name: Aiyu Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_aiyu_aura_A,true;
+      hateffect HAT_EF_aiyu_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_aiyu_aura_A,false;
+      hateffect HAT_EF_aiyu_aura_B,false;
+  - Id: 760085
+    AegisName: Amulet_Aura_Effect
+    Name: Amulet Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_amulet_aura_A,true;
+      hateffect HAT_EF_amulet_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_amulet_aura_A,false;
+      hateffect HAT_EF_amulet_aura_B,false;
+  - Id: 760086
+    AegisName: Angelic_Aura_Effect
+    Name: Angelic Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_angelic_aura_A,true;
+      hateffect HAT_EF_angelic_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_angelic_aura_A,false;
+      hateffect HAT_EF_angelic_aura_B,false;
+  - Id: 760087
+    AegisName: Aniexiles_Aura_Effect
+    Name: Aniexiles Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_aniexiles_aura_A,true;
+      hateffect HAT_EF_aniexiles_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_aniexiles_aura_A,false;
+      hateffect HAT_EF_aniexiles_aura_B,false;
+  - Id: 760088
+    AegisName: Crest_Moon_Aura_Effect
+    Name: Crest Moon Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_crest_moon_aura_A,true;
+      hateffect HAT_EF_crest_moon_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_crest_moon_aura_A,false;
+      hateffect HAT_EF_crest_moon_aura_B,false;
+  - Id: 760089
+    AegisName: Solestic_Aura_Effect
+    Name: Solestic Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_solestic_aura_A,true;
+      hateffect HAT_EF_solestic_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_solestic_aura_A,false;
+      hateffect HAT_EF_solestic_aura_B,false;
+  - Id: 760090
+    AegisName: Arcane_Red_Aura_Effect
+    Name: Arcane Red Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_arcane_red_aura_A,true;
+      hateffect HAT_EF_arcane_red_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_arcane_red_aura_A,false;
+      hateffect HAT_EF_arcane_red_aura_B,false;
+  - Id: 760091
+    AegisName: Arcane_Blue_Aura_Effect
+    Name: Arcane Blue Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_arcane_blue_aura_A,true;
+      hateffect HAT_EF_arcane_blue_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_arcane_blue_aura_A,false;
+      hateffect HAT_EF_arcane_blue_aura_B,false;
+  - Id: 760092
+    AegisName: Arcane_Pink_Aura_Effect
+    Name: Arcane Pink Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_arcane_pink_aura_A,true;
+      hateffect HAT_EF_arcane_pink_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_arcane_pink_aura_A,false;
+      hateffect HAT_EF_arcane_pink_aura_B,false;
+  - Id: 760093
+    AegisName: Arcane_Green_Aura_Effect
+    Name: Arcane Green Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_arcane_green_aura_A,true;
+      hateffect HAT_EF_arcane_green_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_arcane_green_aura_A,false;
+      hateffect HAT_EF_arcane_green_aura_B,false;
+  - Id: 760094
+    AegisName: Artic_Galaxy_Aura_Effect
+    Name: Artic Galaxy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_artic_galaxy_aura_A,true;
+      hateffect HAT_EF_artic_galaxy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_artic_galaxy_aura_A,false;
+      hateffect HAT_EF_artic_galaxy_aura_B,false;
+  - Id: 760095
+    AegisName: King_of_Aura_Effect
+    Name: King of Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_king_of_aura_A,true;
+      hateffect HAT_EF_king_of_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_king_of_aura_A,false;
+      hateffect HAT_EF_king_of_aura_B,false;
+  - Id: 760096
+    AegisName: Flame_Aura_Effect
+    Name: Flame Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flame_aura_A,true;
+      hateffect HAT_EF_flame_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flame_aura_A,false;
+      hateffect HAT_EF_flame_aura_B,false;
+  - Id: 760097
+    AegisName: Autum_Leaf_Aura_Effect
+    Name: Autum Leaf Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_autum_leaf_aura_A,true;
+      hateffect HAT_EF_autum_leaf_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_autum_leaf_aura_A,false;
+      hateffect HAT_EF_autum_leaf_aura_B,false;
+  - Id: 760098
+    AegisName: Dolphin_Aura_Effect
+    Name: Dolphin Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dolphin_aura_A,true;
+      hateffect HAT_EF_dolphin_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dolphin_aura_A,false;
+      hateffect HAT_EF_dolphin_aura_B,false;
+  - Id: 760099
+    AegisName: Voodoo_Aura_Effect
+    Name: Voodoo Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_voodoo_aura_A,true;
+      hateffect HAT_EF_voodoo_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_voodoo_aura_A,false;
+      hateffect HAT_EF_voodoo_aura_B,false;
+  - Id: 760100
+    AegisName: Blood_Aura_Effect
+    Name: Blood Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_blood_aura_A,true;
+      hateffect HAT_EF_blood_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_blood_aura_A,false;
+      hateffect HAT_EF_blood_aura_B,false;
+  - Id: 760101
+    AegisName: Bloody_Sun_Aura_Effect
+    Name: Bloody Sun Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_bloody_sun_aura_A,true;
+      hateffect HAT_EF_bloody_sun_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_bloody_sun_aura_A,false;
+      hateffect HAT_EF_bloody_sun_aura_B,false;
+  - Id: 760102
+    AegisName: Blubble_Aura_Effect
+    Name: Blubble Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_blubble_aura_A,true;
+      hateffect HAT_EF_blubble_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_blubble_aura_A,false;
+      hateffect HAT_EF_blubble_aura_B,false;
+  - Id: 760103
+    AegisName: Blue_Fume_Aura_Effect
+    Name: Blue Fume Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_blue_fume_aura_A,true;
+      hateffect HAT_EF_blue_fume_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_blue_fume_aura_A,false;
+      hateffect HAT_EF_blue_fume_aura_B,false;
+  - Id: 760104
+    AegisName: Blue_Heaven_Aura_Effect
+    Name: Blue Heaven Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_blue_heaven_aura_A,true;
+      hateffect HAT_EF_blue_heaven_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_blue_heaven_aura_A,false;
+      hateffect HAT_EF_blue_heaven_aura_B,false;
+  - Id: 760105
+    AegisName: Blue_Moon_Aura_Effect
+    Name: Blue Moon Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_blue_moon_aura_A,true;
+      hateffect HAT_EF_blue_moon_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_blue_moon_aura_A,false;
+      hateffect HAT_EF_blue_moon_aura_B,false;
+  - Id: 760106
+    AegisName: Blush_Aura_Effect
+    Name: Blush Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_blush_aura_A,true;
+      hateffect HAT_EF_blush_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_blush_aura_A,false;
+      hateffect HAT_EF_blush_aura_B,false;
+  - Id: 760107
+    AegisName: Bubble_2_Aura_Effect
+    Name: Bubble Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_bubble_2_aura_A,true;
+      hateffect HAT_EF_bubble_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_bubble_2_aura_A,false;
+      hateffect HAT_EF_bubble_2_aura_B,false;
+  - Id: 760108
+    AegisName: Butterfly_Aura_Effect
+    Name: Butterfly Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_butterfly_aura_A,true;
+      hateffect HAT_EF_butterfly_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_butterfly_aura_A,false;
+      hateffect HAT_EF_butterfly_aura_B,false;
+  - Id: 760109
+    AegisName: Butterfly_2_Aura_Effect
+    Name:  Butterfly Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_bautterfly_2_aura_A,true;
+      hateffect HAT_EF_bautterfly_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_bautterfly_2_aura_A,false;
+      hateffect HAT_EF_bautterfly_2_aura_B,false;
+  - Id: 760110
+    AegisName: Celestia_Tattoo_Aura_Effect
+    Name: Celestia Tattoo Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_celestia_tattoo_aura_A,true;
+      hateffect HAT_EF_celestia_tattoo_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_celestia_tattoo_aura_A,false;
+      hateffect HAT_EF_celestia_tattoo_aura_B,false;
+  - Id: 760111
+    AegisName: Celtic_Aura_Effect
+    Name: Celtic Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_celtic_aura_A,true;
+      hateffect HAT_EF_celtic_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_celtic_aura_A,false;
+      hateffect HAT_EF_celtic_aura_B,false;
+  - Id: 760112
+    AegisName: Celtic_Flower_Aura_Effect
+    Name: Celtic Flower Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_celtic_flower_aura_A,true;
+      hateffect HAT_EF_celtic_flower_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_celtic_flower_aura_A,false;
+      hateffect HAT_EF_celtic_flower_aura_B,false;
+  - Id: 760113
+    AegisName: Celtic_Green_Aura_Effect
+    Name: Celtic Green Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_celtic_green_aura_A,true;
+      hateffect HAT_EF_celtic_green_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_celtic_green_aura_A,false;
+      hateffect HAT_EF_celtic_green_aura_B,false;
+  - Id: 760114
+    AegisName: Celtic_Heart_Aura_Effect
+    Name: Celtic Heart Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_celtic_heart_aura_A,true;
+      hateffect HAT_EF_celtic_heart_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_celtic_heart_aura_A,false;
+      hateffect HAT_EF_celtic_heart_aura_B,false;
+  - Id: 760115
+    AegisName: Celtic_Protection_Aura_Effect
+    Name: Celtic Protection Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_celtic_protection_aura_A,true;
+      hateffect HAT_EF_celtic_protection_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_celtic_protection_aura_A,false;
+      hateffect HAT_EF_celtic_protection_aura_B,false;
+  - Id: 760116
+    AegisName: Chococat_Aura_Effect
+    Name: Chococat Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_chococat_aura_A,true;
+      hateffect HAT_EF_chococat_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_chococat_aura_A,false;
+      hateffect HAT_EF_chococat_aura_B,false;
+  - Id: 760117
+    AegisName: Circle_of_Power_Aura_Effect
+    Name: Circle of Power Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_circle_of_power_aura_A,true;
+      hateffect HAT_EF_circle_of_power_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_circle_of_power_aura_A,false;
+      hateffect HAT_EF_circle_of_power_aura_B,false;
+  - Id: 760118
+    AegisName: Color_Swirls_Aura_Effect
+    Name: Color Swirls Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_color_swirls_aura_A,true;
+      hateffect HAT_EF_color_swirls_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_color_swirls_aura_A,false;
+      hateffect HAT_EF_color_swirls_aura_B,false;
+  - Id: 760119
+    AegisName: Crest_Aura_Effect
+    Name: Crest Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_crest_aura_A,true;
+      hateffect HAT_EF_crest_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_crest_aura_A,false;
+      hateffect HAT_EF_crest_aura_B,false;
+  - Id: 760120
+    AegisName: Cross_Aura_Effect
+    Name: Cross Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_cross_aura_A,true;
+      hateffect HAT_EF_cross_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_cross_aura_A,false;
+      hateffect HAT_EF_cross_aura_B,false;
+  - Id: 760121
+    AegisName: Daisy_Aura_Effect
+    Name: Daisy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_daisy_aura_A,true;
+      hateffect HAT_EF_daisy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_daisy_aura_A,false;
+      hateffect HAT_EF_daisy_aura_B,false;
+  - Id: 760122
+    AegisName: Dark_Summoning_Aura_Effect
+    Name: Dark Summoning Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dark_summoning_aura_A,true;
+      hateffect HAT_EF_dark_summoning_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dark_summoning_aura_A,false;
+      hateffect HAT_EF_dark_summoning_aura_B,false;
+  - Id: 760123
+    AegisName: Demon_Symbol_Aura_Effect
+    Name: Demon Symbol Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_demon_symbol_aura_A,true;
+      hateffect HAT_EF_demon_symbol_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_demon_symbol_aura_A,false;
+      hateffect HAT_EF_demon_symbol_aura_B,false;
+  - Id: 760124
+    AegisName: Anime_Aura_Effect
+    Name: Anime Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_anime_aura_A,true;
+      hateffect HAT_EF_anime_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_anime_aura_A,false;
+      hateffect HAT_EF_anime_aura_B,false;
+  - Id: 760125
+    AegisName: Devotion_Aura_Effect
+    Name: Devotion Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_devotion_aura_A,true;
+      hateffect HAT_EF_devotion_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_devotion_aura_A,false;
+      hateffect HAT_EF_devotion_aura_B,false;
+  - Id: 760126
+    AegisName: Dolphin_2_Aura_Effect
+    Name: Dolphin Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dolphin_2_aura_A,true;
+      hateffect HAT_EF_dolphin_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dolphin_2_aura_A,false;
+      hateffect HAT_EF_dolphin_2_aura_B,false;
+  - Id: 760127
+    AegisName: Dragon_Aura_Effect
+    Name: Dragon Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dragon_aura_A,true;
+      hateffect HAT_EF_dragon_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dragon_aura_A,false;
+      hateffect HAT_EF_dragon_aura_B,false;
+  - Id: 760128
+    AegisName: Dragon_Head_Aura_Effect
+    Name: Dragon Head Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dragon_head_aura_A,true;
+      hateffect HAT_EF_dragon_head_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dragon_head_aura_A,false;
+      hateffect HAT_EF_dragon_head_aura_B,false;
+  - Id: 760129
+    AegisName: Dragonflies_Aura_Effect
+    Name: Dragonflies Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dragonflies_aura_A,true;
+      hateffect HAT_EF_dragonflies_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dragonflies_aura_A,false;
+      hateffect HAT_EF_dragonflies_aura_B,false;
+  - Id: 760130
+    AegisName: Envy_Aura_Effect
+    Name: Envy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_envy_aura_A,true;
+      hateffect HAT_EF_envy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_envy_aura_A,false;
+      hateffect HAT_EF_envy_aura_B,false;
+  - Id: 760131
+    AegisName: Fairy_Aura_Effect
+    Name: Fairy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_fairy_aura_A,true;
+      hateffect HAT_EF_fairy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_fairy_aura_A,false;
+      hateffect HAT_EF_fairy_aura_B,false;
+  - Id: 760132
+    AegisName: Fire_Sun_Aura_Effect
+    Name: Fire Sun Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_fire_sun_aura_A,true;
+      hateffect HAT_EF_fire_sun_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_fire_sun_aura_A,false;
+      hateffect HAT_EF_fire_sun_aura_B,false;
+  - Id: 760133
+    AegisName: Flamy_Sun_2_Aura_Effect
+    Name: Flamy Sun Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flamy_sun_2_aura_A,true;
+      hateffect HAT_EF_flamy_sun_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flamy_sun_2_aura_A,false;
+      hateffect HAT_EF_flamy_sun_2_aura_B,false;
+  - Id: 760134
+    AegisName: flamy_sun_Aura_Effect
+    Name: Flamy Sun Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flamy_sun_aura_A,true;
+      hateffect HAT_EF_flamy_sun_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flamy_sun_aura_A,false;
+      hateffect HAT_EF_flamy_sun_aura_B,false;
+  - Id: 760135
+    AegisName: flashy_2_Aura_Effect
+    Name: Flashy Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flashy_2_aura_A,true;
+      hateffect HAT_EF_flashy_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flashy_2_aura_A,false;
+      hateffect HAT_EF_flashy_2_aura_B,false;
+  - Id: 760136
+    AegisName: flashy_3_Aura_Effect
+    Name: Flashy Aura Effect(3)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flashy_3_aura_A,true;
+      hateffect HAT_EF_flashy_3_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flashy_3_aura_A,false;
+      hateffect HAT_EF_flashy_3_aura_B,false;
+  - Id: 760137
+    AegisName: flashy_Aura_Effect
+    Name: Flashy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flashy_aura_A,true;
+      hateffect HAT_EF_flashy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flashy_aura_A,false;
+      hateffect HAT_EF_flashy_aura_B,false;
+  - Id: 760138
+    AegisName: Flower_Aura_Effect
+    Name: Flower Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_flower_aura_A,true;
+      hateffect HAT_EF_flower_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_flower_aura_A,false;
+      hateffect HAT_EF_flower_aura_B,false;
+  - Id: 760139
+    AegisName: Force_Aura_Effect
+    Name: Force Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_force_aura_A,true;
+      hateffect HAT_EF_force_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_force_aura_A,false;
+      hateffect HAT_EF_force_aura_B,false;
+  - Id: 760140
+    AegisName: Full_Metal_Alchemist_Aura_Effect
+    Name: Full Metal Alchemist Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_full_metal_alchemist_aura_A,true;
+      hateffect HAT_EF_full_metal_alchemist_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_full_metal_alchemist_aura_A,false;
+      hateffect HAT_EF_full_metal_alchemist_aura_B,false;
+  - Id: 760141
+    AegisName: Funky_Colors_Aura_Effect
+    Name: Funky Colors Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_funky_colors_aura_A,true;
+      hateffect HAT_EF_funky_colors_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_funky_colors_aura_A,false;
+      hateffect HAT_EF_funky_colors_aura_B,false;
+  - Id: 760142
+    AegisName: Ghost_1_Aura_Effect
+    Name: Ghost Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ghost_1_aura_A,true;
+      hateffect HAT_EF_ghost_1_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ghost_1_aura_A,false;
+      hateffect HAT_EF_ghost_1_aura_B,false;
+  - Id: 760143
+    AegisName: Ghost_2_Aura_Effect
+    Name: Ghost Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ghost_2_aura_A,true;
+      hateffect HAT_EF_ghost_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ghost_2_aura_A,false;
+      hateffect HAT_EF_ghost_2_aura_B,false;
+  - Id: 760144
+    AegisName: Ghost_3_Aura_Effect
+    Name: Ghost Aura Effect(3)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ghost_3_aura_A,true;
+      hateffect HAT_EF_ghost_3_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ghost_3_aura_A,false;
+      hateffect HAT_EF_ghost_3_aura_B,false;
+  - Id: 760145
+    AegisName: Ghost_4_Aura_Effect
+    Name: Ghost Aura Effect(4)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_ghost_4_aura_A,true;
+      hateffect HAT_EF_ghost_4_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_ghost_4_aura_A,false;
+      hateffect HAT_EF_ghost_4_aura_B,false;
+  - Id: 760146
+    AegisName: Grape_Aura_Effect
+    Name: Grape Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_grape_aura_A,true;
+      hateffect HAT_EF_grape_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_grape_aura_A,false;
+      hateffect HAT_EF_grape_aura_B,false;
+  - Id: 760147
+    AegisName: Greed_Aura_Effect
+    Name: Greed Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_greed_aura_A,true;
+      hateffect HAT_EF_greed_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_greed_aura_A,false;
+      hateffect HAT_EF_greed_aura_B,false;
+  - Id: 760148
+    AegisName: Green_Plant_Aura_Effect
+    Name: Green Plant Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_green_plant_aura_A,true;
+      hateffect HAT_EF_green_plant_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_green_plant_aura_A,false;
+      hateffect HAT_EF_green_plant_aura_B,false;
+  - Id: 760149
+    AegisName: Green_Swirls_Aura_Effect
+    Name: Green Swirls Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_green_swirls_aura_A,true;
+      hateffect HAT_EF_green_swirls_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_green_swirls_aura_A,false;
+      hateffect HAT_EF_green_swirls_aura_B,false;
+  - Id: 760150
+    AegisName: Green_Wing_Aura_Effect
+    Name: Green Wing Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_green_wing_aura_A,true;
+      hateffect HAT_EF_green_wing_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_green_wing_aura_A,false;
+      hateffect HAT_EF_green_wing_aura_B,false;
+  - Id: 760151
+    AegisName: Grunge_Green_Aura_Effect
+    Name: Grunge Green Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_grunge_green_aura_A,true;
+      hateffect HAT_EF_grunge_green_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_grunge_green_aura_A,false;
+      hateffect HAT_EF_grunge_green_aura_B,false;
+  - Id: 760152
+    AegisName: Guiding_Star_Aura_Effect
+    Name: Guiding Star Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_guiding_star_aura_A,true;
+      hateffect HAT_EF_guiding_star_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_guiding_star_aura_A,false;
+      hateffect HAT_EF_guiding_star_aura_B,false;
+  - Id: 760153
+    AegisName: Tornado_Aura_Effect
+    Name: Tornado Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_tornado_aura_A,true;
+      hateffect HAT_EF_tornado_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_tornado_aura_A,false;
+      hateffect HAT_EF_tornado_aura_B,false;
+  - Id: 760154
+    AegisName: Heart_Aura_Effect
+    Name: Heart Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_heart_aura_A,true;
+      hateffect HAT_EF_heart_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_heart_aura_A,false;
+      hateffect HAT_EF_heart_aura_B,false;
+  - Id: 760155
+    AegisName: Hello_Kitty_Aura_Effect
+    Name: Hello Kitty Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_hello_kitty_aura_A,true;
+      hateffect HAT_EF_hello_kitty_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_hello_kitty_aura_A,false;
+      hateffect HAT_EF_hello_kitty_aura_B,false;
+  - Id: 760156
+    AegisName: Hellsing_Aura_Effect
+    Name: Hellsing Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_hellsing_aura_A,true;
+      hateffect HAT_EF_hellsing_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_hellsing_aura_A,false;
+      hateffect HAT_EF_hellsing_aura_B,false;
+  - Id: 760157
+    AegisName: Holy_1_Aura_Effect
+    Name: Holy Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_holy_1_aura_A,true;
+      hateffect HAT_EF_holy_1_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_holy_1_aura_A,false;
+      hateffect HAT_EF_holy_1_aura_B,false;
+  - Id: 760158
+    AegisName: Holy_Aura_Effect
+    Name: Holy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_holy_aura_A,true;
+      hateffect HAT_EF_holy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_holy_aura_A,false;
+      hateffect HAT_EF_holy_aura_B,false;
+  - Id: 760159
+    AegisName: Human_Emblem_Aura_Effect
+    Name: Human Emblem Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_human_emblem_aura_A,true;
+      hateffect HAT_EF_human_emblem_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_human_emblem_aura_A,false;
+      hateffect HAT_EF_human_emblem_aura_B,false;
+  - Id: 760160
+    AegisName: Lady_Bug_Aura_Effect
+    Name: Lady Bug Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lady_bug_aura_A,true;
+      hateffect HAT_EF_lady_bug_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lady_bug_aura_A,false;
+      hateffect HAT_EF_lady_bug_aura_B,false;
+  - Id: 760161
+    AegisName: Lauriers_Aura_Effect
+    Name: Lauriers Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lauriers_aura_A,true;
+      hateffect HAT_EF_lauriers_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lauriers_aura_A,false;
+      hateffect HAT_EF_lauriers_aura_B,false;
+  - Id: 760162
+    AegisName: Lead_Circlet_Aura_Effect
+    Name: Lead Circlet Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lead_circlet_aura_A,true;
+      hateffect HAT_EF_lead_circlet_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lead_circlet_aura_A,false;
+      hateffect HAT_EF_lead_circlet_aura_B,false;
+  - Id: 760163
+    AegisName: Leal_Life_Aura_Effect
+    Name: Leal Life Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_leal_life_aura_A,true;
+      hateffect HAT_EF_leal_life_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_leal_life_aura_A,false;
+      hateffect HAT_EF_leal_life_aura_B,false;
+  - Id: 760164
+    AegisName: Lifesource_Aura_Effect
+    Name: Lifesource Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lifesource_aura_A,true;
+      hateffect HAT_EF_lifesource_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lifesource_aura_A,false;
+      hateffect HAT_EF_lifesource_aura_B,false;
+  - Id: 760165
+    AegisName: Limitless_Flowers_Aura_Effect
+    Name: Limitless Flowers Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_limitless_flowers_aura_A,true;
+      hateffect HAT_EF_limitless_flowers_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_limitless_flowers_aura_A,false;
+      hateffect HAT_EF_limitless_flowers_aura_B,false;
+  - Id: 760166
+    AegisName: Lionheart_Aura_Effect
+    Name: Lionheart Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lionheart_aura_A,true;
+      hateffect HAT_EF_lionheart_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lionheart_aura_A,false;
+      hateffect HAT_EF_lionheart_aura_B,false;
+  - Id: 760167
+    AegisName: Little_Rounds_Aura_Effect
+    Name: Little Rounds Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_little_rounds_aura_A,true;
+      hateffect HAT_EF_little_rounds_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_little_rounds_aura_A,false;
+      hateffect HAT_EF_little_rounds_aura_B,false;
+  - Id: 760168
+    AegisName: Lord_of_The_Rings_Aura_Effect
+    Name: Lord of The Rings Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lord_of_the_rings_aura_A,true;
+      hateffect HAT_EF_lord_of_the_rings_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lord_of_the_rings_aura_A,false;
+      hateffect HAT_EF_lord_of_the_rings_aura_B,false;
+  - Id: 760169
+    AegisName: Lotus_Aura_Effect
+    Name: Lotus Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lotus_aura_A,true;
+      hateffect HAT_EF_lotus_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lotus_aura_A,false;
+      hateffect HAT_EF_lotus_aura_B,false;
+  - Id: 760170
+    AegisName: Love_Aura_Effect
+    Name: Love Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_love_aura_A,true;
+      hateffect HAT_EF_love_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_love_aura_A,false;
+      hateffect HAT_EF_love_aura_B,false;
+  - Id: 760171
+    AegisName: Lust_Aura_Effect
+    Name: Lust Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_lust_aura_A,true;
+      hateffect HAT_EF_lust_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_lust_aura_A,false;
+      hateffect HAT_EF_lust_aura_B,false;
+  - Id: 760172
+    AegisName: Magic_Circle_Aura_Effect
+    Name: Magic Circle Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_magic_circle_aura_A,true;
+      hateffect HAT_EF_magic_circle_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_magic_circle_aura_A,false;
+      hateffect HAT_EF_magic_circle_aura_B,false;
+  - Id: 760173
+    AegisName: Manic_Aura_Effect
+    Name: Manic Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_manic_aura_A,true;
+      hateffect HAT_EF_manic_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_manic_aura_A,false;
+      hateffect HAT_EF_manic_aura_B,false;
+  - Id: 760174
+    AegisName: Medieval_Heart_Aura_Effect
+    Name: Medieval Heart Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_medieval_heart_aura_A,true;
+      hateffect HAT_EF_medieval_heart_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_medieval_heart_aura_A,false;
+      hateffect HAT_EF_medieval_heart_aura_B,false;
+  - Id: 760175
+    AegisName: Merlin_Aura_Effect
+    Name: Merlin Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_merlin_aura_A,true;
+      hateffect HAT_EF_merlin_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_merlin_aura_A,false;
+      hateffect HAT_EF_merlin_aura_B,false;
+  - Id: 760176
+    AegisName: Metallic_Butterfly_Aura_Effect
+    Name: Metallic Butterfly Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_metallic_butterfly_aura_A,true;
+      hateffect HAT_EF_metallic_butterfly_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_metallic_butterfly_aura_A,false;
+      hateffect HAT_EF_metallic_butterfly_aura_B,false;
+  - Id: 760177
+    AegisName: Midnight_Fenrir_Aura_Effect
+    Name: Midnight Fenrir Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_midnight_fenrir_aura_A,true;
+      hateffect HAT_EF_midnight_fenrir_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_midnight_fenrir_aura_A,false;
+      hateffect HAT_EF_midnight_fenrir_aura_B,false;
+  - Id: 760178
+    AegisName: Mist_of_Azure_Aura_Effect
+    Name: Mist of Azure Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_mist_of_azure_aura_A,true;
+      hateffect HAT_EF_mist_of_azure_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_mist_of_azure_aura_A,false;
+      hateffect HAT_EF_mist_of_azure_aura_B,false;
+  - Id: 760179
+    AegisName: Musical_Aura_Effect
+    Name: Musical Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_musical_aura_A,true;
+      hateffect HAT_EF_musical_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_musical_aura_A,false;
+      hateffect HAT_EF_musical_aura_B,false;
+  - Id: 760180
+    AegisName: Nature_Aura_Effect
+    Name: Nature Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_nature_aura_A,true;
+      hateffect HAT_EF_nature_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_nature_aura_A,false;
+      hateffect HAT_EF_nature_aura_B,false;
+  - Id: 760181
+    AegisName: Necromancy_Aura_Effect
+    Name: Necromancy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_necromancy_aura_A,true;
+      hateffect HAT_EF_necromancy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_necromancy_aura_A,false;
+      hateffect HAT_EF_necromancy_aura_B,false;
+  - Id: 760182
+    AegisName: Phoenix_Aura_Effect
+    Name: Phoenix Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_phoenix_aura_A,true;
+      hateffect HAT_EF_phoenix_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_phoenix_aura_A,false;
+      hateffect HAT_EF_phoenix_aura_B,false;
+  - Id: 760183
+    AegisName: Pretty_Lotus_Aura_Effect
+    Name: Pretty Lotus Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_pretty_lotus_aura_A,true;
+      hateffect HAT_EF_pretty_lotus_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_pretty_lotus_aura_A,false;
+      hateffect HAT_EF_pretty_lotus_aura_B,false;
+  - Id: 760184
+    AegisName: Pride_Aura_Effect
+    Name: Pride Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_pride_aura_A,true;
+      hateffect HAT_EF_pride_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_pride_aura_A,false;
+      hateffect HAT_EF_pride_aura_B,false;
+  - Id: 760185
+    AegisName: Pumpkin_Aura_Effect
+    Name: Pumpkin Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_pumpkin_aura_A,true;
+      hateffect HAT_EF_pumpkin_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_pumpkin_aura_A,false;
+      hateffect HAT_EF_pumpkin_aura_B,false;
+  - Id: 760186
+    AegisName: Purple_Flower_Aura_Effect
+    Name: Purple Flower Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_purple_flower_aura_A,true;
+      hateffect HAT_EF_purple_flower_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_purple_flower_aura_A,false;
+      hateffect HAT_EF_purple_flower_aura_B,false;
+  - Id: 760187
+    AegisName: Chain_Lock_Aura_Effect
+    Name: Chain Lock Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_chain_lock_aura_A,true;
+      hateffect HAT_EF_chain_lock_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_chain_lock_aura_A,false;
+      hateffect HAT_EF_chain_lock_aura_B,false;
+  - Id: 760188
+    AegisName: Cross Holy_Aura_Effect
+    Name: Cross Holy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_cross_holy_aura_A,true;
+      hateffect HAT_EF_cross_holy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_cross_holy_aura_A,false;
+      hateffect HAT_EF_cross_holy_aura_B,false;
+  - Id: 760189
+    AegisName: Purple_Moon_Aura_Effect
+    Name: Purple Moon Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_purple_moon_aura_A,true;
+      hateffect HAT_EF_purple_moon_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_purple_moon_aura_A,false;
+      hateffect HAT_EF_purple_moon_aura_B,false;
+  - Id: 760190
+    AegisName: Purple_Pace_Aura_Effect
+    Name: Purple Pace Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_purple_pace_aura_A,true;
+      hateffect HAT_EF_purple_pace_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_purple_pace_aura_A,false;
+      hateffect HAT_EF_purple_pace_aura_B,false;
+  - Id: 760191
+    AegisName: Red_Cross_Aura_Effect
+    Name: Red Cross Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_red_cross_aura_A,true;
+      hateffect HAT_EF_red_cross_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_red_cross_aura_A,false;
+      hateffect HAT_EF_red_cross_aura_B,false;
+  - Id: 760192
+    AegisName: Red_Shield_Aura_Effect
+    Name: Red Shield Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_red_shield_aura_A,true;
+      hateffect HAT_EF_red_shield_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_red_shield_aura_A,false;
+      hateffect HAT_EF_red_shield_aura_B,false;
+  - Id: 760193
+    AegisName: Red_Smoke_Aura_Effect
+    Name: Red Smoke Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_red_smoke_aura_A,true;
+      hateffect HAT_EF_red_smoke_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_red_smoke_aura_A,false;
+      hateffect HAT_EF_red_smoke_aura_B,false;
+  - Id: 760194
+    AegisName: Red_Splash_Aura_Effect
+    Name: Red Splash Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_red_splash_aura_A,true;
+      hateffect HAT_EF_red_splash_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_red_splash_aura_A,false;
+      hateffect HAT_EF_red_splash_aura_B,false;
+  - Id: 760195
+    AegisName: Red_Stars_Aura_Effect
+    Name: Red Stars Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_red_stars_aura_A,true;
+      hateffect HAT_EF_red_stars_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_red_stars_aura_A,false;
+      hateffect HAT_EF_red_stars_aura_B,false;
+  - Id: 760196
+    AegisName: Red_Wave_Aura_Effect
+    Name: Red Wave Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_red_wave_aura_A,true;
+      hateffect HAT_EF_red_wave_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_red_wave_aura_A,false;
+      hateffect HAT_EF_red_wave_aura_B,false;
+  - Id: 760197
+    AegisName: Rose_2_Aura_Effect
+    Name: Rose Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rose_2_aura_A,true;
+      hateffect HAT_EF_rose_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rose_2_aura_A,false;
+      hateffect HAT_EF_rose_2_aura_B,false;
+  - Id: 760198
+    AegisName: Rose_Aura_Effect
+    Name: Rose Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rose_aura_A,true;
+      hateffect HAT_EF_rose_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rose_aura_A,false;
+      hateffect HAT_EF_rose_aura_B,false;
+  - Id: 760199
+    AegisName: Rose_Necklace_Aura_Effect
+    Name: Rose Necklace Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rose_necklace_aura_A,true;
+      hateffect HAT_EF_rose_necklace_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rose_necklace_aura_A,false;
+      hateffect HAT_EF_rose_necklace_aura_B,false;
+  - Id: 760200
+    AegisName: Scribble_Aura_Effect
+    Name: Scribble Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_scribble_aura_A,true;
+      hateffect HAT_EF_scribble_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_scribble_aura_A,false;
+      hateffect HAT_EF_scribble_aura_B,false;
+  - Id: 760201
+    AegisName: Server_Current_Aura_Effect
+    Name: Server Current Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_server_current_aura_A,true;
+      hateffect HAT_EF_server_current_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_server_current_aura_A,false;
+      hateffect HAT_EF_server_current_aura_B,false;
+  - Id: 760202
+    AegisName: Shadow_Aura_Effect
+    Name: Shadow Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_shadow_aura_A,true;
+      hateffect HAT_EF_shadow_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_shadow_aura_A,false;
+      hateffect HAT_EF_shadow_aura_B,false;
+  - Id: 760203
+    AegisName: Skull_Aura_Effect
+    Name: Skull Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_skull_aura_A,true;
+      hateffect HAT_EF_skull_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_skull_aura_A,false;
+      hateffect HAT_EF_skull_aura_B,false;
+  - Id: 760204
+    AegisName: Sloth_Aura_Effect
+    Name: Sloth Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_sloth_aura_A,true;
+      hateffect HAT_EF_sloth_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_sloth_aura_A,false;
+      hateffect HAT_EF_sloth_aura_B,false;
+  - Id: 760205
+    AegisName: Snow_Aura_Effect
+    Name: Snow Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_snow_aura_A,true;
+      hateffect HAT_EF_snow_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_snow_aura_A,false;
+      hateffect HAT_EF_snow_aura_B,false;
+  - Id: 760206
+    AegisName: Solar_Aura_Effect
+    Name: Solar Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_solar_aura_A,true;
+      hateffect HAT_EF_solar_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_solar_aura_A,false;
+      hateffect HAT_EF_solar_aura_B,false;
+  - Id: 760207
+    AegisName: Solar_2_Aura_Effect
+    Name: Solar Aura Effect(2)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_solar_2_aura_A,true;
+      hateffect HAT_EF_solar_2_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_solar_2_aura_A,false;
+      hateffect HAT_EF_solar_2_aura_B,false;
+  - Id: 760208
+    AegisName: Solar_3_Aura_Effect
+    Name: Solar Aura Effect(3)
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_solar_3_aura_A,true;
+      hateffect HAT_EF_solar_3_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_solar_3_aura_A,false;
+      hateffect HAT_EF_solar_3_aura_B,false;
+  - Id: 760209
+    AegisName: Something_Aura_Effect
+    Name: Something Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_something_aura_A,true;
+      hateffect HAT_EF_something_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_something_aura_A,false;
+      hateffect HAT_EF_something_aura_B,false;
+  - Id: 760210
+    AegisName: Spike_Aura_Effect
+    Name: Spike Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_spike_aura_A,true;
+      hateffect HAT_EF_spike_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_spike_aura_A,false;
+      hateffect HAT_EF_spike_aura_B,false;
+  - Id: 760211
+    AegisName: Splash_Circle_Aura_Effect
+    Name: Splash Circle Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_splash_circle_aura_A,true;
+      hateffect HAT_EF_splash_circle_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_splash_circle_aura_A,false;
+      hateffect HAT_EF_splash_circle_aura_B,false;
+  - Id: 760212
+    AegisName: Square_Aura_Effect
+    Name: Square Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_square_aura_A,true;
+      hateffect HAT_EF_square_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_square_aura_A,false;
+      hateffect HAT_EF_square_aura_B,false;
+  - Id: 760213
+    AegisName: Star_Aura_Effect
+    Name: Star Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_star_aura_A,true;
+      hateffect HAT_EF_star_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_star_aura_A,false;
+      hateffect HAT_EF_star_aura_B,false;
+  - Id: 760214
+    AegisName: Strawberr_Aura_Effect
+    Name: Strawberr Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_strawberr_aura_A,true;
+      hateffect HAT_EF_strawberr_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_strawberr_aura_A,false;
+      hateffect HAT_EF_strawberr_aura_B,false;
+  - Id: 760215
+    AegisName: Sun_and_Moon_Aura_Effect
+    Name: Sun and Moon Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_sun_and_moon_aura_A,true;
+      hateffect HAT_EF_sun_and_moon_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_sun_and_moon_aura_A,false;
+      hateffect HAT_EF_sun_and_moon_aura_B,false;
+  - Id: 760216
+    AegisName: Triangle_Aura_Effect
+    Name: Triangle Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_triangle_aura_A,true;
+      hateffect HAT_EF_triangle_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_triangle_aura_A,false;
+      hateffect HAT_EF_triangle_aura_B,false;
+  - Id: 760217
+    AegisName: Tribal_Aura_Effect
+    Name: Tribal Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_tribal_aura_A,true;
+      hateffect HAT_EF_tribal_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_tribal_aura_A,false;
+      hateffect HAT_EF_tribal_aura_B,false;
+  - Id: 760218
+    AegisName: Tricky_Sun_Aura_Effect
+    Name: Tricky Sun Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_tricky_sun_aura_A,true;
+      hateffect HAT_EF_tricky_sun_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_tricky_sun_aura_A,false;
+      hateffect HAT_EF_tricky_sun_aura_B,false;
+  - Id: 760219
+    AegisName: Trigger_Symbol_Aura_Effect
+    Name: Trigger Symbol Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_trigger_symbol_aura_A,true;
+      hateffect HAT_EF_trigger_symbol_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_trigger_symbol_aura_A,false;
+      hateffect HAT_EF_trigger_symbol_aura_B,false;
+  - Id: 760220
+    AegisName: Batman_Aura_Effect
+    Name: Batman Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_batman_aura_A,true;
+      hateffect HAT_EF_batman_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_batman_aura_A,false;
+      hateffect HAT_EF_batman_aura_B,false;
+  - Id: 760221
+    AegisName: Turquoise_Aura_Effect
+    Name: Turquoise Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_turquoise_aura_A,true;
+      hateffect HAT_EF_turquoise_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_turquoise_aura_A,false;
+      hateffect HAT_EF_turquoise_aura_B,false;
+  - Id: 760222
+    AegisName: Undead_Green_Sigil_Aura_Effect
+    Name: Undead Green Sigil Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_undead_green_sigil_aura_A,true;
+      hateffect HAT_EF_undead_green_sigil_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_undead_green_sigil_aura_A,false;
+      hateffect HAT_EF_undead_green_sigil_aura_B,false;
+  - Id: 760223
+    AegisName: Undead_Red_Sigil_Aura_Effect
+    Name: Undead Red Sigil Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_undead_red_sigil_aura_A,true;
+      hateffect HAT_EF_undead_red_sigil_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_undead_red_sigil_aura_A,false;
+      hateffect HAT_EF_undead_red_sigil_aura_B,false;
+  - Id: 760224
+    AegisName: Undead_Sigil_Aura_Effect
+    Name: Undead Sigil Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_undead_sigil_aura_A,true;
+      hateffect HAT_EF_undead_sigil_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_undead_sigil_aura_A,false;
+      hateffect HAT_EF_undead_sigil_aura_B,false;
+  - Id: 760225
+    AegisName: Unholy_Aura_Effect
+    Name: Unholy Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_unholy_aura_A,true;
+      hateffect HAT_EF_unholy_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_unholy_aura_A,false;
+      hateffect HAT_EF_unholy_aura_B,false;
+  - Id: 760226
+    AegisName: Unicorn_Aura_Effect
+    Name: Unicorn Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_unicorn_aura_A,true;
+      hateffect HAT_EF_unicorn_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_unicorn_aura_A,false;
+      hateffect HAT_EF_unicorn_aura_B,false;
+  - Id: 760227
+    AegisName: Unknown_Aura_Effect
+    Name: Unknown Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_unknown_aura_A,true;
+      hateffect HAT_EF_unknown_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_unknown_aura_A,false;
+      hateffect HAT_EF_unknown_aura_B,false;
+  - Id: 760228
+    AegisName: Unwanted_Happening_Aura_Effect
+    Name: Unwanted Happening Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_unwanted_happening_aura_A,true;
+      hateffect HAT_EF_unwanted_happening_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_unwanted_happening_aura_A,false;
+      hateffect HAT_EF_unwanted_happening_aura_B,false;
+  - Id: 760229
+    AegisName: Wavy_Circle_Aura_Effect
+    Name: Wavy Circle Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_wavy_circle_aura_A,true;
+      hateffect HAT_EF_wavy_circle_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_wavy_circle_aura_A,false;
+      hateffect HAT_EF_wavy_circle_aura_B,false;
+  - Id: 760230
+    AegisName: Wedding_Aura_Effect
+    Name: Wedding Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_wedding_aura_A,true;
+      hateffect HAT_EF_wedding_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_wedding_aura_A,false;
+      hateffect HAT_EF_wedding_aura_B,false;
+  - Id: 760231
+    AegisName: White_Swirl_Aura_Effect
+    Name: White Swirl Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_white_swirl_aura_A,true;
+      hateffect HAT_EF_white_swirl_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_white_swirl_aura_A,false;
+      hateffect HAT_EF_white_swirl_aura_B,false;
+  - Id: 760232
+    AegisName: Wrath_Aura_Effect
+    Name: Wrath Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_wrath_aura_A,true;
+      hateffect HAT_EF_wrath_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_wrath_aura_A,false;
+      hateffect HAT_EF_wrath_aura_B,false;
+  - Id: 760233
+    AegisName: Yellow_Smoke_Aura_Effect
+    Name: Yellow Smoke Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_yellow_smoke_aura_A,true;
+      hateffect HAT_EF_yellow_smoke_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_yellow_smoke_aura_A,false;
+      hateffect HAT_EF_yellow_smoke_aura_B,false;
+  - Id: 760234
+    AegisName: Zeet_Blue_Aura_Effect
+    Name: Zeet Blue Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_zeet_blue_aura_A,true;
+      hateffect HAT_EF_zeet_blue_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_zeet_blue_aura_A,false;
+      hateffect HAT_EF_zeet_blue_aura_B,false;
+  - Id: 760235
+    AegisName: Zeet_Pink_Aura_Effect
+    Name: Zeet Pink Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_zeet_pink_aura_A,true;
+      hateffect HAT_EF_zeet_pink_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_zeet_pink_aura_A,false;
+      hateffect HAT_EF_zeet_pink_aura_B,false;
+  - Id: 760236
+    AegisName: Zeet_Red_Aura_Effect
+    Name: Zeet Red Aura Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_zeet_red_aura_A,true;
+      hateffect HAT_EF_zeet_red_aura_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_zeet_red_aura_A,false;
+      hateffect HAT_EF_zeet_red_aura_B,false;
+###########################################################################
+# Auras VIP 2
+###########################################################################
+  - Id: 760237
+    AegisName: Absolute_Zephyr_Effect
+    Name: Absolute Zephyr Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_roki_capriccio_A,true;
+      hateffect HAT_EF_absolute_zephyr,true;
+    UnEquipScript: |
+      hateffect HAT_EF_roki_capriccio_A,false;
+      hateffect HAT_EF_absolute_zephyr,false;
+  - Id: 760238
+    AegisName: Allbloom_Effect
+    Name: Allbloom Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_allbloom_A,true;
+      hateffect HAT_EF_allbloom_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_allbloom_A,false;
+      hateffect HAT_EF_allbloom_B,false;
+  - Id: 760239
+    AegisName: Chain_Reaction_Shot_Effect
+    Name: Chain Reaction Shot Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_chain_reaction_shot_A,true;
+      hateffect HAT_EF_chain_reaction_shot_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_chain_reaction_shot_A,false;
+      hateffect HAT_EF_chain_reaction_shot_B,false;
+  - Id: 760240
+    AegisName: Crossrain_Effect
+    Name: Crossrain Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_crossrain_A,true;
+      hateffect HAT_EF_crossrain_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_crossrain_A,false;
+      hateffect HAT_EF_crossrain_B,false;
+  - Id: 760241
+    AegisName: Dancing_Knife_Effect
+    Name: Dancing Knife Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_dancing_knife_A,true;
+      hateffect HAT_EF_dancing_knife_B,true;
+      hateffect HAT_EF_serpens_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_dancing_knife_A,false;
+      hateffect HAT_EF_dancing_knife_B,false;
+      hateffect HAT_EF_serpens_B,false;
+  - Id: 760242
+    AegisName: Destructive_hHurricane_Effect
+    Name: Destructive Hurricane Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_destructive_hurricane_A,true;
+      hateffect HAT_EF_destructive_hurricane_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_destructive_hurricane_A,false;
+      hateffect HAT_EF_destructive_hurricane_B,false;
+  - Id: 760243
+    AegisName: Firmfaith_Effect
+    Name: Firmfaith Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_firmfaith,true;
+      hateffect HAT_EF_firstfaithpower_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_firmfaith,false;
+      hateffect HAT_EF_firstfaithpower_B,false;
+  - Id: 760244
+    AegisName: Frozen_Slash_Effect
+    Name: Frozen Slash Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_frozen_slash_A,true;
+      hateffect HAT_EF_frozen_slash_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_frozen_slash_A,false;
+      hateffect HAT_EF_frozen_slash_B,false;
+  - Id: 760245
+    AegisName: Gef_Nocturn_Effect
+    Name: Geffen Nocturn Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_gef_nocturn_A,true;
+      hateffect HAT_EF_gef_nocturn_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_gef_nocturn_A,false;
+      hateffect HAT_EF_gef_nocturn_B,false;
+  - Id: 760246
+    AegisName: New_Aimedbolt_Effect
+    Name: New Aimedbolt Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_spellfist_C,true;
+      hateffect HAT_EF_new_aimedbolt,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_spellfist_C,false;
+      hateffect HAT_EF_new_aimedbolt,false;
+  - Id: 760247
+    AegisName: New_Aromaoil_Effect
+    Name: New Aromaoil Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_aromaoil_A,true;
+      hateffect HAT_EF_new_aromaoil_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_aromaoil_A,false;
+      hateffect HAT_EF_new_aromaoil_B,false;
+  - Id: 760248
+    AegisName: New_Axeboomerang_Effect
+    Name: New Axeboomerang Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_axeboomerang_A,true;
+      hateffect HAT_EF_new_axeboomerang_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_axeboomerang_A,false;
+      hateffect HAT_EF_new_axeboomerang_B,false;
+  - Id: 760249
+    AegisName: New_Chainlightning_Effect
+    Name: New Chainlightning Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_chainlightning_cast,true;
+      hateffect HAT_EF_new_chainlightning,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_chainlightning_cast,false;
+      hateffect HAT_EF_new_chainlightning,false;
+  - Id: 760250
+    AegisName: New Fatal_Menace_Effect
+    Name: New Fatal Menace Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_fatal_menace_A,true;
+      hateffect HAT_EF_new_fatal_menace_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_fatal_menace_A,false;
+      hateffect HAT_EF_new_fatal_menace_B,false;
+  - Id: 760251
+    AegisName: New_HellInferno_Effect
+    Name: New HellInferno Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_spellfist_A,true;
+      hateffect HAT_EF_new_hellInferno,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_spellfist_A,false;
+      hateffect HAT_EF_new_hellInferno,false;
+  - Id: 760252
+    AegisName: New_Howlingoflion_Effect
+    Name: New Howlingoflion Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_howlingoflion_A,true;
+      hateffect HAT_EF_new_howlingoflion_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_howlingoflion_A,false;
+      hateffect HAT_EF_new_howlingoflion_B,false;
+  - Id: 760253
+    AegisName: New_Overbrand_Effect
+    Name: New Overbrand Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_overbrand_A,true;
+      hateffect HAT_EF_new_overbrand_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_overbrand_A,false;
+      hateffect HAT_EF_new_overbrand_B,false;
+  - Id: 760254
+    AegisName: New_Pramen_Effect
+    Name: New Pramen Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_spellfist_B,true;
+      hateffect HAT_EF_new_pramen,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_spellfist_B,false;
+      hateffect HAT_EF_new_pramen,false;
+  - Id: 760255
+    AegisName: New_Soulexpansion_Effect
+    Name: New Soulexpansion Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_soulexpansion_A,true;
+      hateffect HAT_EF_new_soulexpansion_B,true;
+      hateffect HAT_EF_new_soulexpansion_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_soulexpansion_A,false;
+      hateffect HAT_EF_new_soulexpansion_B,false;
+      hateffect HAT_EF_new_soulexpansion_C,false;
+  - Id: 760256
+    AegisName: New_Soundofdestruction_Effect
+    Name: New Sound of Destruction Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_soundofdestruction_A,true;
+      hateffect HAT_EF_new_soundofdestruction_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_soundofdestruction_A,false;
+      hateffect HAT_EF_new_soundofdestruction_B,false;
+  - Id: 760257
+    AegisName: New_Tornadostorm_Effect
+    Name: New Tornadostorm Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_new_tornadostorm_A,true;
+      hateffect HAT_EF_new_tornadostorm_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_new_tornadostorm_A,false;
+      hateffect HAT_EF_new_tornadostorm_B,false;
+  - Id: 760258
+    AegisName: Powerfulfaith_Effect
+    Name: Powerfulfaith Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_powerfulfaith,true;
+      hateffect HAT_EF_firstfaithpower_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_powerfulfaith,false;
+      hateffect HAT_EF_firstfaithpower_B,false;
+  - Id: 760259
+    AegisName: Rebound_Shield_Effect
+    Name: Rebound Shield Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_rebound_shield_A,true;
+      hateffect HAT_EF_rebound_shield_B,true;
+    UnEquipScript: |
+      hateffect HAT_EF_rebound_shield_A,false;
+      hateffect HAT_EF_rebound_shield_B,false;
+  - Id: 760260
+    AegisName: Roseblossom_Effect
+    Name: Roseblossom Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_roseblossom_A,true;
+      hateffect HAT_EF_roseblossom_B,true;
+      hateffect HAT_EF_procella_B,true;
+#      hateffect HAT_EF_roseblossom_C,true;
+    UnEquipScript: |
+      hateffect HAT_EF_roseblossom_A,false;
+      hateffect HAT_EF_roseblossom_B,false;
+      hateffect HAT_EF_procella_B,false;
+#      hateffect HAT_EF_roseblossom_C,false;
+  - Id: 760261
+    AegisName: Soul_VC_Strike_Effect
+    Name: Soul VC Strike Effect
+    Type: Card
+    SubType: Enchant
+    Script: |
+      hateffect HAT_EF_terradrive_A,true;
+      hateffect HAT_EF_soul_vc_strike_B,true;
+#      hateffect HAT_EF_soul_vc_strike_A,true;
+    UnEquipScript: |
+      hateffect HAT_EF_terradrive_A,false;
+      hateffect HAT_EF_soul_vc_strike_B,false;
+#      hateffect HAT_EF_soul_vc_strike_A,false;
